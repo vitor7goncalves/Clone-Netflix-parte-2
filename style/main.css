@@ -38,7 +38,7 @@ header nav a:hover{
 /*Fime principal*/
 .filme-principal{
     font-size: 16px;
-    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)100%), url("/img/capa.jpg");
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)100%), url("D:/Meus Projetos/Netflix2/img/capa.jpg");
     height: 400px;
     background-size:cover;
     display: flex;
