@@ -1,21 +1,245 @@
-@media screen and (max-width:620px){
+@media screen and (max-width: 280px){
 
     header .container{
         display: flex;
         flex-direction: column;
     }
+    header .logo{
+        margin-left: 0px;
+
+    }
+    header nav a{
+        font-size: 9px;
+        margin-left: 5px;
+    }
+    .filme-principal .container{
+        margin-left: 5px;
+       
+    }
+    .filme-principal{
+        font-size: 12px;
+        height: 50vh;
+    }
+    .capa{
+        top: -40px;
+        left: 0;
+        width: 100%;
+        height: 70%;
+      
+    }
 
     .botao{
-        margin-top: 5px;
-        width: 300px;
+        font-size: 10px;
+        width: 175px;
+    }
+    .botao2{
+        font-size: 10px;
+        margin-top: 30px;
+        width: 175px;
+    }
+    #video-trailler{
+        top: -150px;
+        left: 0;
+    }
+    .menu-info{
+        bottom: 70%;
+        left: 15px;
+        width: 90%;
+        height: 25%;
+    }
+    .menu-button{
+        font-size: 9px;
+        padding: 5px 15px;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    .icons{
+        width: 25px;
+        height: 25px;
+        font-size: 10px;
+
+    }
+    .informacoes{
+        top: 0px;
+        left: 0%;
+        width: 100%;
+        height: 100vh;
+    }
+    .rodape-info{
+        top: 23%;
+        left: -1px;
+        width: 100.2%;
+        padding-bottom: 30px;
+    }
+    .sinopse-area{
+        margin-left: 25px;
+    }
+    .classificacao{
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .classificacao img{
+        width: 20px;
+        height: 20px;
+        margin-top: -3px;
+        margin-right: 0px;
+    }
+    .classificacao p{
+        margin-right: 1px;
+    }
+    .elenco{
+        margin-right: 10px
     }
 }
-@media screen and (min-width:1000px){
+
+@media screen and (max-width:540px) and (min-width:281px){
+    header nav a{
+        margin-left: 10px;
+     }
+     
+ 
+}
+@media screen and (max-width:650px) and (min-width:281px){
+
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    header .logo{
+        margin-left: 30px;
+
+    }
+    header nav a{
+        font-size: 12px;
+    }
+    .filme-principal .container{
+        margin-left: 10px;
+       
+    }
+    .filme-principal{
+        font-size: 12px;
+        height: 50vh;
+    }
+    .capa{
+        top: -40px;
+        left: 0;
+        width: 100%;
+        height: 70%;
+      
+    }
+
+    .botao{
+        font-size: 10px;
+        width: 175px;
+    }
+    .botao2{
+        font-size: 10px;
+        margin-top: 30px;
+        width: 175px;
+    }
+    #video-trailler{
+        top: -150px;
+        left: 0;
+    }
+    .menu-info{
+        bottom: 70%;
+        left: 50px;
+        width: 90%;
+        height: 25%;
+    }
+    .menu-button{
+        font-size: 9px;
+    }
+    .icons{
+        width: 25px;
+        height: 25px;
+        font-size: 10px;
+
+    }
+    .informacoes{
+        top: 0px;
+        left: 0%;
+        width: 100%;
+        height: 100vh;
+    }
+    .rodape-info{
+        top: 26%;
+        left: -1px;
+        width: 100.2%;
+        padding-bottom: 30px;
+    }
+    .sinopse-area{
+        margin-left: 30px;
+    }
+    .classificacao{
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .classificacao img{
+        width: 20px;
+        height: 20px;
+        margin-top: -3px;
+        margin-right: 0px;
+    }
+    .classificacao p{
+        margin-right: 1px;
+    }
+    .elenco{
+        margin-right: 50px
+    }
+}
+@media screen and (max-width:1125px) and (min-width: 651px){
 
     .descricao{
         width: 50% ;
     }
     .filme-principal{
-        height: 85vh;
+        height: 55vh;
+    }
+    .capa{
+        top: -40px;
+        left: 0;
+        width: 100%;
+        height: 70%;
+      
+    }
+    
+    #video-trailler{
+        top: -150px;
+        left: 0;
+    }
+    .informacoes{
+        top: -10%;
+        left: 15%;
+        width: 70%;
+        height: 70%;
+    }
+    .close{
+        top: 20%;
+        right: 10px;
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+    }
+    #video-trailler2{
+        top: -10%;
+        left: 0;
+        width: 100%;
+        height: 90%;
+    }
+    .menu-info{
+        bottom: 40%;
+        left: 50px;
+        width: 90%;
+    }
+    .menu-button{
+        font-size: 12px;
+        width: 10px;
+    }
+    .rodape-info{
+        top: 65%;
+        left: -1px;
+        width: 100.2%;
+       
     }
 }

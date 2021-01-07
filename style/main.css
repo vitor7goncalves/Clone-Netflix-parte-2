@@ -43,11 +43,12 @@ header nav a:hover{
     margin-left: 55px;
     display: flex;
     flex-direction: column;
+    
 }
 .filme-principal{
     font-size: 16px;
     background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)100%);
-    height: 400px;
+    height: 80vh;
     background-size:cover;
     display: flex;
     flex-direction: column;
@@ -125,7 +126,7 @@ header nav a:hover{
     visibility: hidden;
     opacity: 0;
     position: absolute;
-    top: 0px;
+    top: -1%;
     left: 15%;
     width: 70%;
     height: 80vh;
@@ -154,17 +155,18 @@ header nav a:hover{
 }
 #video-trailler2{
     width: 100%;
+   
 }
 .menu-info{
     position: absolute;
-    bottom: 170px;
+    bottom: 35%;
     left: 50px;
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 70%;
     height: 25%;
 }
-.assistir-info{
+.menu-button{
     background-color: rgb(255,255,255);
     border: none;
     border-radius: 5px;
@@ -176,7 +178,7 @@ header nav a:hover{
     cursor: pointer;
     transition: .3s ease all;
 }
-.assistir-info:hover{
+.menu-button:hover{
     background-color: rgba(240,240,240,.7);
 }
 .icons{
@@ -196,7 +198,7 @@ header nav a:hover{
     position: absolute;
     display: flex;
     z-index: 20;
-    top: 477px;
+    top: 86%;
     left: -1px;
     background-color: rgb(20,20,20);
     width: 100.2%;
@@ -218,6 +220,8 @@ header nav a:hover{
 
 .classificacao img{
     width: 37px;
+    margin-top: -5px;
+    margin-right: 3px;
 }
 .classificacao p{
     margin-right: 10px;
@@ -226,13 +230,13 @@ header nav a:hover{
     margin: 25px 0px;
 }
 .sinopse{
-    width: 69%;
-    font-size: 20px;
+    width: 80%;
+    font-size: 19px;
 }
 
 .elenco{
     margin-top: 20px;
-    margin-right: 60px
+    margin-right: 130px
 }
 .elenco p{
     margin-bottom: 10px;
@@ -253,7 +257,4 @@ header nav a:hover{
 
 .item:hover{
     transform: scale(1.1);
-}
-.carrosel-filmes{
-    margin-top: 5px;
 }

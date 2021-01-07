@@ -4,17 +4,17 @@ var v2 = document.getElementById("video-trailler2");
 
 $('.owl-carousel').owlCarousel({
     loop:true,
-    margin:10,
+    margin: 7,
     nav:true,
     responsive:{
         0:{
-            items:1
-        },
-        600:{
             items:3
         },
+        600:{
+            items:4
+        },
         1000:{
-            items:5
+            items:7
         }
     }
 })
