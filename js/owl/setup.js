@@ -1,3 +1,7 @@
+
+ var v = document.getElementById("video-trailler");
+var v2 = document.getElementById("video-trailler2");
+
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
@@ -16,21 +20,26 @@ $('.owl-carousel').owlCarousel({
 })
 
 // $ significa que voce está usando o jquery
-var v = document.querySelector("video")
-v.play();
 
-var v2 = document.getElementsByClassName("video-trailler2")[0];
+let imgOut = true;
+setTimeout(function(){
+
+   if(imgOut){
+       document.getElementById("capa").hidden = true; // hidden so funciona com getElementById
+   }
+
+}, 2000);
 
 document.querySelector(".botao2").addEventListener("click",function(){
-    document.querySelector(".filme-principal").classList.toggle("mini");
-    v.pause();
-    v2.play();
-    });
+document.querySelector(".filme-principal").classList.toggle("mini");
+document.getElementById("capa").hidden = false;
+    imgOut = false
+    v2.load(); //---carrega o video
+    v2.play(); //---toca o video
+});
 
 document.querySelector(".close").addEventListener("click",function(){
-    document.querySelector(".filme-principal").classList.toggle("mini");
-    v.play();
+document.querySelector(".filme-principal").classList.toggle("mini");
+document.getElementById("capa").hidden = true;
     v2.pause();
-    });
-
-        
+});

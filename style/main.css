@@ -104,7 +104,7 @@ header nav a:hover{
 .filme-principal .container{
     max-width: 70%;
 }
-.video-trailler{
+.capa{
     position: absolute;
     top: -40px;
     left: 0;
@@ -112,6 +112,15 @@ header nav a:hover{
     height: 109vh;
     z-index: -1;
 }
+#video-trailler{
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 100%;
+    height: 109vh;
+    z-index: -2;
+}
+
 .informacoes{
     visibility: hidden;
     opacity: 0;
@@ -122,7 +131,7 @@ header nav a:hover{
     height: 80vh;
     border-radius: 5px;
     z-index: 10;
-    transition: .3s ease all;
+    transition: .7s ease all;
 }
 .close{
     position: absolute;
@@ -143,7 +152,7 @@ header nav a:hover{
     visibility: visible;
     opacity: 1;
 }
-.video-trailler2{
+#video-trailler2{
     width: 100%;
 }
 .menu-info{
